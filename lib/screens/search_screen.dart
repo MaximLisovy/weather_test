@@ -14,7 +14,7 @@ class SearchScreen extends StatefulWidget {
 }
 
 class _SearchScreenState extends State<SearchScreen> {
-  final _yourGoogleAPIKey = 'AIzaSyDXjAcEbkn8OezcnOL23nheB-doUj0LAxA';
+  final _yourGoogleAPIKey = 'apikey';
   final textController = TextEditingController();
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   AutovalidateMode _autovalidateMode = AutovalidateMode.disabled;
